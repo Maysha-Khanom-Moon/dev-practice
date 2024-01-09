@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -8,7 +12,6 @@ html, body {
 main {
     height: 100%;
     width: 100%;
-    position: relative;
 }
 
 nav {
@@ -18,7 +21,8 @@ nav {
     border-bottom: 2px solid #dadada;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 4vw;
 }
 
 .nav {
@@ -46,9 +50,23 @@ nav {
     /* nav height was 100px */
     height: calc(100% - 100px);
     /* now, there is no scroll-bar */
-    
+
     width: 100%;
     background-color: cadetblue;
+    display: flex;
+}
+
+.content .left {
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+    padding: 5vw 7vw;
+}
+
+.content .right {
+    height: 100%;
+    width: 50%;
+    background-color: royalblue;
 }
 
 @media (max-width: 600px) {
