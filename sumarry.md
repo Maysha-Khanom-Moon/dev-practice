@@ -23,6 +23,7 @@
 - rem: root em
     - 1 rem = 16px, 2 rem = 32px
 
+<br>
 
 ## Layout of website
 - position: absolute; ==> very tough to make it responsive
@@ -33,3 +34,13 @@
         - using flex containers shrink automatically without scroll-bar.
         - if we use flex-wrap: wrap; ==> without shrink it will go under. Also can add scroll-bar for single container.
     - flex-direction: colume; ==> it will distribute container vertically
+
+<br>
+
+## CSS Media Queries*
+==> according to the screen-size(viewport) website will behave
+
+- @media (max-width: 600px) {
+    - if my screen-size <= 600px then this section will work
+    - specifically i took 600px because mostly mobile screens are less than 600px
+    }
