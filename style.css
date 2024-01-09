@@ -10,7 +10,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .child-1 {
