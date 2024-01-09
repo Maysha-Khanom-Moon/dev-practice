@@ -48,3 +48,5 @@
 
 ### some tips:
 - position: relative; ==> give at parent div. So, its child divs are always exist within parent div
+- calc(): we do arithmatic calcultation
+    - calc(100% - 100px): there must have to give space around of '-'
