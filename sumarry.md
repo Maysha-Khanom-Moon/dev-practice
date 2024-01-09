@@ -43,4 +43,4 @@
 - @media (max-width: 600px) {
     - if my screen-size <= 600px then this section will work
     - specifically i took 600px because mostly mobile screens are less than 600px
-    }
+}
