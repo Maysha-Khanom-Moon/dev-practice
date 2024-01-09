@@ -8,18 +8,21 @@ html, body {
     width: 100%;
     background-color: lightblue;
     display: flex;
-    align-items: center; /* y-axis or cross axis */
-    justify-content: space-evenly; /* x-asix or main axis */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .child-1 {
     height: 500px;
     width: 500px;
     background-color: crimson;
+    border: 5px solid;
 }
 
 .child-2 {
     height: 500px;
     width: 500px;
     background-color: crimson;
+    border: 5px solid;
 }

@@ -29,4 +29,6 @@
     - it's static
 
 - display: flex; ==> makes container flexiable
-    - using flex: containers shrink automatically
+    #### when i decrease the width of viewport
+    - using flex containers shrink automatically without scroll-bar.
+    - if we use flex-wrap: wrap; ==> without shrink it will go under. Also can add scroll-bar for single container.
