@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 main {
@@ -11,17 +12,20 @@ main {
 
 nav {
     height: 100px;
-    width: 100%;
+    width: 95%;
     /* background-color: red; */
+    border-bottom: 2px solid #dadada;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .nav {
     display: flex;
     /* background-color: blue; */
     gap: 4vw;
+    align-items: center;
 }
 
 .nav h2 {
@@ -31,4 +35,30 @@ nav {
 
 .nav h4 {
     font-size: 1vw;
+}
+
+.nav i {
+    font-size: 2vw;
+    flex-wrap: 800;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        background-color: lightseagreen;
+        color: white;
+    }
+    
+    nav h2 {
+        font-size: 6vw;
+    }
+
+    nav h4 {
+        font-size: 4vw;
+        display: none;
+    }
+
+    .nav i {
+        display: initial;
+    }
 }
