@@ -1,25 +1,22 @@
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 100%;  /* all viewport-width  */
+    height: 100%; /* content requied space */
 }
 
 .parent {
+    background-color: #dadada;
     width: 80vw;
-    height: 50vh;
-    background-color: cadetblue;
+    font-size: 30px;
 }
 
-/* child always exist upon parent */
-.child {
-    width: 50vw;
-    height: 80vh;
-    background-color: tomato;   
+h1 {
+    font-size: 2em;
 }
 
-.one {
-    font-size: 10vmax;
+h2 {
+    font-size: 2rem;
 }
 
-.two {
-    font-size: 10vmin;
+h3 {
+    font-size: 3rem;
 }
