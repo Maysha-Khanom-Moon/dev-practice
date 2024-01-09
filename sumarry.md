@@ -8,4 +8,6 @@
 
 - px: it's not responding with viewport. It's fixed
 - '%': depends upon parent div. it can be (0-100)%
-- 
+- vh: viewport-height.
+- vw: viewport-width. 
+    => vh, vw depends to viewport, not depends upon parent
