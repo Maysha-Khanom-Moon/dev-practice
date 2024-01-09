@@ -27,5 +27,6 @@
 ## Layout of website
 - position: absolute; ==> very tough to make it responsive
     - it's static
-    
-- display: flex; ==> 
+
+- display: flex; ==> makes container flexiable
+    - using flex: containers shrink automatically
