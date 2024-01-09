@@ -3,20 +3,10 @@ html, body {
     height: 100%; /* content requied space */
 }
 
-.parent {
-    background-color: #dadada;
-    width: 80vw;
-    font-size: 30px;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 3rem;
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    position: absolute;
+    left: 50%;
 }

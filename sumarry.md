@@ -22,3 +22,10 @@
     - 2 em = 2 * parent's size 
 - rem: root em
     - 1 rem = 16px, 2 rem = 32px
+
+
+## Layout of website
+- position: absolute; ==> very tough to make it responsive
+    - it's static
+    
+- display: flex; ==> 
