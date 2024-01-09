@@ -44,3 +44,7 @@
     - if my screen-size <= 600px then this section will work
     - specifically i took 600px because mostly mobile screens are less than 600px
 }
+
+
+### some tips:
+- position: relative; ==> give at parent div. So, its child divs are always exist within parent div

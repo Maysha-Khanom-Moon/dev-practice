@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    /* background-color: blue; */
+    gap: 4vw;
+}
+
+.nav h2 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.nav h4 {
+    font-size: 1vw;
+}
